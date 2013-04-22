@@ -10,6 +10,8 @@
 
 @interface MainViewController ()
 
+@property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
+
 @end
 
 @implementation MainViewController

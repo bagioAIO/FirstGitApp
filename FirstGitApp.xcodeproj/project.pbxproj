@@ -18,6 +18,7 @@
 		609FBED01725E64900B0D80A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 609FBECF1725E64900B0D80A /* Default-568h@2x.png */; };
 		609FBED31725E64900B0D80A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 609FBED11725E64900B0D80A /* MainStoryboard.storyboard */; };
 		609FBED61725E64900B0D80A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 609FBED51725E64900B0D80A /* MainViewController.m */; };
+		609FBEDE1725E7AA00B0D80A /* mario_wallpaper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 609FBEDD1725E7AA00B0D80A /* mario_wallpaper.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		609FBED21725E64900B0D80A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		609FBED41725E64900B0D80A /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		609FBED51725E64900B0D80A /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		609FBEDD1725E7AA00B0D80A /* mario_wallpaper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario_wallpaper.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +85,6 @@
 		609FBEBF1725E64900B0D80A /* FirstGitApp */ = {
 			isa = PBXGroup;
 			children = (
-				609FBEC81725E64900B0D80A /* MainAppDelegate.h */,
-				609FBEC91725E64900B0D80A /* MainAppDelegate.m */,
 				609FBED11725E64900B0D80A /* MainStoryboard.storyboard */,
 				609FBED41725E64900B0D80A /* MainViewController.h */,
 				609FBED51725E64900B0D80A /* MainViewController.m */,
@@ -96,6 +96,9 @@
 		609FBEC01725E64900B0D80A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				609FBEC81725E64900B0D80A /* MainAppDelegate.h */,
+				609FBEC91725E64900B0D80A /* MainAppDelegate.m */,
+				609FBEDC1725E79500B0D80A /* Images */,
 				609FBEC11725E64900B0D80A /* FirstGitApp-Info.plist */,
 				609FBEC21725E64900B0D80A /* InfoPlist.strings */,
 				609FBEC51725E64900B0D80A /* main.m */,
@@ -105,6 +108,14 @@
 				609FBECF1725E64900B0D80A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		609FBEDC1725E79500B0D80A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				609FBEDD1725E7AA00B0D80A /* mario_wallpaper.jpg */,
+			);
+			name = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +175,7 @@
 				609FBECE1725E64900B0D80A /* Default@2x.png in Resources */,
 				609FBED01725E64900B0D80A /* Default-568h@2x.png in Resources */,
 				609FBED31725E64900B0D80A /* MainStoryboard.storyboard in Resources */,
+				609FBEDE1725E7AA00B0D80A /* mario_wallpaper.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
