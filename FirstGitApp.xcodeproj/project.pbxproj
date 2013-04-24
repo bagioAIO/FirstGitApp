@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10EDD85D172891B100352D0A /* TextColorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10EDD85C172891B100352D0A /* TextColorsViewController.m */; };
 		609FBEBA1725E64900B0D80A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609FBEB91725E64900B0D80A /* UIKit.framework */; };
 		609FBEBC1725E64900B0D80A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609FBEBB1725E64900B0D80A /* Foundation.framework */; };
 		609FBEBE1725E64900B0D80A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 609FBEBD1725E64900B0D80A /* CoreGraphics.framework */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		10EDD85B172891B100352D0A /* TextColorsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextColorsViewController.h; sourceTree = "<group>"; };
+		10EDD85C172891B100352D0A /* TextColorsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextColorsViewController.m; sourceTree = "<group>"; };
 		609FBEB61725E64900B0D80A /* FirstGitApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstGitApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		609FBEB91725E64900B0D80A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		609FBEBB1725E64900B0D80A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +61,7 @@
 		609FBEAD1725E64900B0D80A = {
 			isa = PBXGroup;
 			children = (
+				609FBED11725E64900B0D80A /* MainStoryboard.storyboard */,
 				609FBEBF1725E64900B0D80A /* FirstGitApp */,
 				609FBEB81725E64900B0D80A /* Frameworks */,
 				609FBEB71725E64900B0D80A /* Products */,
@@ -85,10 +89,11 @@
 		609FBEBF1725E64900B0D80A /* FirstGitApp */ = {
 			isa = PBXGroup;
 			children = (
-				609FBED11725E64900B0D80A /* MainStoryboard.storyboard */,
 				609FBED41725E64900B0D80A /* MainViewController.h */,
 				609FBED51725E64900B0D80A /* MainViewController.m */,
 				609FBEC01725E64900B0D80A /* Supporting Files */,
+				10EDD85B172891B100352D0A /* TextColorsViewController.h */,
+				10EDD85C172891B100352D0A /* TextColorsViewController.m */,
 			);
 			path = FirstGitApp;
 			sourceTree = "<group>";
@@ -189,6 +194,7 @@
 				609FBEC61725E64900B0D80A /* main.m in Sources */,
 				609FBECA1725E64900B0D80A /* MainAppDelegate.m in Sources */,
 				609FBED61725E64900B0D80A /* MainViewController.m in Sources */,
+				10EDD85D172891B100352D0A /* TextColorsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +215,7 @@
 				609FBED21725E64900B0D80A /* en */,
 			);
 			name = MainStoryboard.storyboard;
+			path = FirstGitApp;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -311,6 +318,7 @@
 				609FBEDB1725E64900B0D80A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
